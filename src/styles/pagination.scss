@@ -1,0 +1,20 @@
+.pogination{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    button{
+        border: none;
+        outline: 0;
+        background: gray;
+        padding: 20px;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    button.active{
+        background: yellow;
+    }
+}

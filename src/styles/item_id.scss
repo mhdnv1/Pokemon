@@ -1,0 +1,24 @@
+.item__id {
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100vh;
+        div {
+           background: gray;
+           border-radius: 10px;
+           padding: 20px;
+           color: white;
+           font-style: italic;
+           width: 300px;
+        }
+    }
+
+    img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+}
